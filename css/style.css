@@ -1,0 +1,794 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  height: 730px;
+}
+
+.bg .bg-home {
+  width: 100%;
+}
+
+nav {
+  margin-top: 30px;
+}
+
+.navbar ul li {
+  margin-right: 40px;
+}
+
+.navbar ul li a {
+  color: white !important;
+  font-size: 18px;
+}
+
+.navbar ul li .login-button {
+  text-align: center;
+  border-radius: 23px;
+  width: 100px;
+  padding: 9px 22px;
+  background-color: #0c42cc;
+}
+
+.navbar ul li .dropdown-menu .dropdown-item {
+  color: black !important;
+}
+
+.title {
+  margin-left: 115px;
+  margin-top: 119px;
+  box-sizing: border-box;
+}
+
+.title h4 {
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
+
+.title h1 {
+  font-weight: 600;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.title .more {
+  margin-top: 59px;
+}
+
+.title .more-button {
+  font-size: 18px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: white;
+}
+
+.box-info {
+  position: absolute;
+  right: 0;
+  top: 600px;
+  width: 700px;
+  height: 120px;
+  background: rgba(180, 177, 177, 0.3);
+  backdrop-filter: blur(17px);
+}
+
+.box-info .content {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 34px;
+  padding-bottom: 32px;
+  color: white;
+}
+
+.box-info .content .visitors {
+  text-align: center;
+}
+.box-info .content .visitors h5 {
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.box-info .content .visitors h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.box-info .content .booking {
+  text-align: center;
+}
+
+.box-info .content .booking h5 {
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.box-info .content .booking h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.blank {
+  width: 100%;
+  height: 400px;
+}
+
+.our-cars h1 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #524e4e;
+}
+
+.our-cars .models {
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.hero {
+  margin-top: 158px;
+}
+
+.hero .container .row .col h1 {
+  padding-top: 33px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.hero .container .row .col p {
+  width: 440px;
+  padding-top: 43px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #555555;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+}
+
+.hero .container .row .col a {
+  margin-top: 74px;
+}
+
+.hero .container .row .col .cover-hero {
+  position: absolute;
+  left: 100;
+  z-index: -1;
+}
+
+.hero .container .row .col .car {
+  position: relative;
+  top: 240px;
+  right: 175px;
+}
+
+.clients {
+  margin-top: 276px;
+}
+
+.clients .container .our-clients {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.clients .container .row {
+  margin-top: 20px;
+}
+
+.clients .container .row .col {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.clients .container .card {
+  padding: 20px 30px;
+  margin: 20px 0;
+  width: 520px;
+  box-sizing: border-box;
+  background: #4b4b4b;
+  /* Light */
+
+  box-shadow: 17.2926px 15.4723px 24.5737px -6.37095px rgba(203, 202, 204, 0.47);
+  border-radius: 6px;
+}
+
+.clients .container .row .card img {
+  margin: 18px 0;
+  width: 135px;
+}
+
+.clients .container .row .card .feedbacks {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+}
+
+.clients .container .row .card .client-name {
+  padding-top: 18px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.clients .container .row .card .years {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.services {
+  margin-top: 210px;
+}
+.services .container .why-us {
+  padding-bottom: 40px;
+  font-size: 28px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: #524e4e;
+  text-align: center;
+}
+.services .container .row .col {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.services .container .row .card {
+  margin: 20px 0;
+  width: 330px;
+  height: 341px;
+  padding: 32px 15px;
+  background: #ffffff;
+  box-shadow: 17.2926px 15.4723px 24.5737px -6.37095px rgba(203, 202, 204, 0.47);
+  border-radius: 6px;
+}
+
+.services .container .row .card .guaranteed {
+  width: 80px;
+  margin: auto;
+}
+.services .container .row .card .various {
+  width: 120px;
+  margin: auto;
+}
+.services .container .row .card .service-hours {
+  width: 118px;
+  margin: auto;
+}
+
+.services .container .row .card h4 {
+  padding: 30px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+}
+
+.services .container .row .card p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.bg-app {
+  height: 324px;
+  background: url("../assets/img/Bg-App.png");
+  background-repeat: no-repeat;
+  margin-top: 150px;
+}
+
+.bg-app .container h1 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
+
+.bg-app .container .row a {
+  padding-right: 16px;
+}
+
+.footer {
+  margin-top: 92px;
+  padding-bottom: 71px;
+}
+
+.footer .container .row .contact {
+  width: 220px;
+  box-sizing: border-box;
+}
+
+.footer .container .row .contact h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.footer .container .row .contact h5 {
+  font-family: "Lato", sans-serif;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #808486;
+}
+
+.footer .container .row .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container .row .info h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.footer .container .row .info a {
+  font-family: "Lato", sans-serif;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 18px;
+  color: #808486;
+  transition: 0.6s;
+}
+
+.footer .container .row .info a:hover {
+  color: #000000;
+  font-weight: 500;
+}
+
+.footer .container .row .socmed {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container .row .socmed h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.footer .container .row .socmed a {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  color: black;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+.footer .container .row .socmed a .facebook {
+  width: 24px;
+}
+.footer .container .row .socmed a .instagram {
+  width: 26px;
+}
+.footer .container .row .socmed a .twitter {
+  width: 30px;
+}
+
+/*-------------------------------- END HOME --------------------------------*/
+
+/* -------------------------------- About -------------------------------- */
+.about-bg {
+  margin-left: 924px;
+  margin-top: 182px;
+}
+
+.about-bg h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  padding-bottom: 33px;
+}
+
+.about-bg a {
+  transition: 0.6s;
+  text-decoration: none;
+  color: rgb(179, 179, 179);
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.about-bg a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.about-us {
+  text-align: center;
+  margin-top: 430px;
+}
+
+.about-us .container h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: #524e4e;
+  padding-bottom: 60px;
+}
+
+.about-us .container p {
+  width: 904px;
+  margin: auto;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #555555;
+}
+
+/* -------------------------------- End About -------------------------------- */
+
+/* -------------------------------- Contact -------------------------------- */
+
+.contact-bg {
+  margin-left: 924px;
+  margin-top: 182px;
+}
+
+.contact-bg h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  padding-bottom: 33px;
+}
+
+.contact-bg a {
+  transition: 0.6s;
+  text-decoration: none;
+  color: rgb(179, 179, 179);
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.contact-bg a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.contact-us {
+  margin-top: 430px;
+}
+
+.contact-us .container .title-contact {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: #524e4e;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.contact-us .container .row .col .card {
+  width: 443px;
+  height: 334px;
+  padding: 50px 40px;
+  box-shadow: 17.2926px 15.4723px 24.5737px -6.37095px rgba(203, 202, 204, 0.47);
+  border-radius: 10px;
+}
+
+.contact-us .container .row .col .card .tell-us {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 60px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.contact-us .container .row .col .card h5 {
+  padding-bottom: 10px;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #555555;
+}
+
+.contact-us .container .row .col .titleFormFeedback {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  letter-spacing: 0.03em;
+}
+
+.contact-us .container .row .col textarea {
+  border: 1px solid #d3d1d1;
+  height: 197px;
+}
+
+/* -------------------------------- End Contact -------------------------------- */
+
+/* -------------------------------- Location -------------------------------- */
+.location-bg {
+  margin-left: 924px;
+  margin-top: 182px;
+}
+
+.location-bg h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  padding-bottom: 33px;
+}
+
+.location-bg a {
+  transition: 0.6s;
+  text-decoration: none;
+  color: rgb(179, 179, 179);
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.location-bg a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.ourlocation {
+  margin-top: 430px;
+}
+
+.ourlocation .container .titleOurLocation {
+  font-size: 28px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #524e4e;
+  padding-bottom: 107px;
+}
+
+.ourlocation .container .row .col .info {
+  padding-top: 37px;
+  display: flex;
+}
+
+.ourlocation .container .row .col .info h5 {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #555555;
+  padding-left: 15px;
+}
+
+.ourlocation .container .row .col .info .tracking-icon {
+  width: 36px;
+  height: 36px;
+}
+.ourlocation .container .row .col .info .email-icon {
+  width: 32px;
+  height: 32px;
+}
+.ourlocation .container .row .col .info .phone-icon {
+  width: 30px;
+  height: 30px;
+}
+/* -------------------------------- End Location -------------------------------- */
+
+/* -------------------------------- Collection -------------------------------- */
+.find-car .container .title-findCar {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #524e4e;
+}
+
+.find-car .container p {
+  padding: 29px 0 44px;
+  margin: auto;
+  width: 904px;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.find-car .container h4 {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  color: #35249b;
+  padding-bottom: 75px;
+}
+
+.find-car .container .row .col .card {
+  margin: 20px 0;
+  padding: 26px 13px;
+  width: 327px;
+  box-sizing: border-box;
+}
+
+.find-car .container .row .col {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.find-car .container .row .col .card a img {
+  width: 301px;
+  height: 192px;
+  padding-bottom: 10px;
+}
+
+.find-car .container .row .col .card .carName {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.find-car .container .row .col .card .typeCar {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #a4a1a1;
+  padding-bottom: 28px;
+}
+
+.find-car .container .row .col .card .set {
+  padding-top: 18px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.find-car .container .row .col .card .set .passanger {
+  display: flex;
+  justify-content: center;
+}
+.find-car .container .row .col .card .set .passanger img {
+  margin: 0 5px;
+  width: 24px;
+  height: 24px;
+}
+
+.find-car .container .row .col .card .set .slot {
+  display: flex;
+  justify-content: center;
+}
+.find-car .container .row .col .card .set .slot img {
+  margin: 0 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.seeMoreCollection {
+  margin-top: 80px;
+}
+
+.seeMoreCollection .container .more-collection {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+/* -------------------------------- End Collection -------------------------------- */
+
+/* -------------------------------- Our Client -------------------------------- */
+.listClients .container .allClients {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #524e4e;
+  padding-bottom: 107px;
+}
+
+.listClients .container .row .col {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.listClients .container .row .col .card {
+  margin: 20px 0;
+  padding: 40px 20px;
+  width: 331px;
+  height: 272px;
+}
+
+.listClients .container .row .col .card img {
+  width: 291px;
+  height: 192px;
+  padding-bottom: 10px;
+}
+
+.find-car .container .row .col .card .typeCar {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #a4a1a1;
+  padding-bottom: 28px;
+}
+
+.find-car .container .row .col .card .set {
+  padding-top: 18px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.find-car .container .row .col .card .set .passanger {
+  display: flex;
+  justify-content: center;
+}
+.find-car .container .row .col .card .set .passanger img {
+  margin: 0 5px;
+  width: 24px;
+  height: 24px;
+}
+
+.find-car .container .row .col .card .set .slot {
+  display: flex;
+  justify-content: center;
+}
+.find-car .container .row .col .card .set .slot img {
+  margin: 0 10px;
+  width: 20px;
+  height: 20px;
+}
+/* -------------------------------- End Our Client -------------------------------- */
