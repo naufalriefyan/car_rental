@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -21,11 +22,138 @@ body {
 }
 
 .bg .bg-home {
-  width: 100%;
 }
 
-nav {
-  margin-top: 30px;
+.navbar {
+  background-color: #6968686e;
+}
+
+nav .navbar-brand {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 36px;
+}
+
+.navbar ul .dropdown ul {
+  margin-top: 20px;
+  border-radius: 0px;
+  background-color: #6968686e;
+}
+
+.navbar ul .dropdown ul li {
+  margin: auto;
+}
+
+.navbar ul li {
+  margin-right: 50px;
+}
+
+.navbar ul li a {
+  color: rgb(214, 214, 214) !important;
+  transition: 0.6s;
+}
+
+.navbar ul li a:hover {
+  color: rgb(255, 255, 255) !important;
+}
+
+.navbar ul .login .login-button {
+  margin: 0px;
+  padding: 8px 40px;
+  background-color: rgb(49, 49, 179);
+  box-sizing: border-box;
+  border-radius: 23px;
+}
+
+/* nav {
+  background: #6968686e;
+}
+
+nav:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 40px;
+  position: relative;
+}
+
+nav ul li {
+  float: left;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+nav ul li .login-button {
+  height: 39px;
+  background-color: #0c2ac7;
+  border-radius: 30px;
+}
+
+nav ul li a {
+  color: rgb(224, 224, 224);
+  text-decoration: none;
+  line-height: 70px;
+  font-size: 18px;
+  padding: 8px 10px;
+  transition: 0.6s;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 70px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+nav ul li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+nav ul ul li {
+  background-color: #6968686e;
+  color: white;
+  position: relative;
+  margin: 0px;
+  width: 150px;
+  float: none;
+  display: list-item;
+  border-bottom: 1px solid rgba(0, 0, 0, 0, 0.3);
+}
+
+nav ul ul li a {
+  text-decoration: none;
+  color: rgb(224, 224, 224);
+}
+
+nav ul ul li a:hover {
+  color: white;
+}
+
+nav .logo {
+  float: left;
+  color: white;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 70px;
+  padding-left: 60px;
+} */
+
+/* -------------- */
+
+/* nav {
+  padding-top: 30px;
 }
 
 .navbar ul li {
@@ -47,7 +175,7 @@ nav {
 
 .navbar ul li .dropdown-menu .dropdown-item {
   color: black !important;
-}
+} */
 
 .title {
   margin-left: 115px;
@@ -82,7 +210,7 @@ nav {
 .box-info {
   position: absolute;
   right: 0;
-  top: 600px;
+  margin-top: 256px;
   width: 700px;
   height: 120px;
   background: rgba(180, 177, 177, 0.3);
@@ -792,3 +920,166 @@ nav {
   height: 20px;
 }
 /* -------------------------------- End Our Client -------------------------------- */
+
+/* Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* -------------------------------- Home -------------------------------- */
+  /* .box-info {
+    position: relative;
+    top: 0;
+    margin: 55px 0 auto 0;
+  } */
+
+  /* -------------------------------- End Home -------------------------------- */
+
+  /* -------------------------------- About Us -------------------------------- */
+  /* -------------------------------- End About Us -------------------------------- */
+
+  /* -------------------------------- Contact Us -------------------------------- */
+  /* -------------------------------- End Contact Us -------------------------------- */
+
+  /* -------------------------------- Our Location -------------------------------- */
+  /* -------------------------------- End Our Location -------------------------------- */
+
+  /* -------------------------------- Our Cars -------------------------------- */
+  /* -------------------------------- End Our Cars -------------------------------- */
+
+  /* -------------------------------- Our Clients -------------------------------- */
+  /* -------------------------------- End Our Clients -------------------------------- */
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* -------------------------------- Home -------------------------------- */
+
+  /* -------------------------------- End Home -------------------------------- */
+
+  /* -------------------------------- About Us -------------------------------- */
+  /* -------------------------------- End About Us -------------------------------- */
+
+  /* -------------------------------- Contact Us -------------------------------- */
+  /* -------------------------------- End Contact Us -------------------------------- */
+
+  /* -------------------------------- Our Location -------------------------------- */
+  /* -------------------------------- End Our Location -------------------------------- */
+
+  /* -------------------------------- Our Cars -------------------------------- */
+  /* -------------------------------- End Our Cars -------------------------------- */
+
+  /* -------------------------------- Our Clients -------------------------------- */
+  /* -------------------------------- End Our Clients -------------------------------- */
+}
+
+/* Phone */
+@media (max-width: 576px) {
+  /* -------------------------------- Home -------------------------------- */
+  /* .bg-home {
+    position: relative;
+    width: 100%;
+    height: 730px;
+    background-size: contain;
+  } */
+
+  .container .navbar .navbar-nav {
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .navbar ul li {
+    justify-content: center;
+  }
+
+  .navbar ul li {
+    color: white;
+  }
+
+  .black .box-info {
+    position: static;
+    width: 100%;
+    background: rgba(180, 177, 177, 0.3);
+    backdrop-filter: blur(17px);
+  }
+
+  .box-info .content {
+    margin: auto;
+    display: flex;
+    padding: 32px 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    color: white;
+  }
+
+  .box-info .content .visitors {
+    text-align: center;
+  }
+  .box-info .content .visitors h5 {
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .box-info .content .visitors h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .box-info .content .booking {
+    text-align: center;
+  }
+
+  .box-info .content .booking h5 {
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .box-info .content .booking h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  /* -------------------------------- End Home -------------------------------- */
+
+  /* -------------------------------- About Us -------------------------------- */
+  /* -------------------------------- End About Us -------------------------------- */
+
+  /* -------------------------------- Contact Us -------------------------------- */
+  /* -------------------------------- End Contact Us -------------------------------- */
+
+  /* -------------------------------- Our Location -------------------------------- */
+  /* -------------------------------- End Our Location -------------------------------- */
+
+  /* -------------------------------- Our Cars -------------------------------- */
+  /* -------------------------------- End Our Cars -------------------------------- */
+
+  /* -------------------------------- Our Clients -------------------------------- */
+  /* -------------------------------- End Our Clients -------------------------------- */
+}
+
+/* Mini Phone */
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  /* -------------------------------- Home -------------------------------- */
+  /* -------------------------------- End Home -------------------------------- */
+
+  /* -------------------------------- About Us -------------------------------- */
+  /* -------------------------------- End About Us -------------------------------- */
+
+  /* -------------------------------- Contact Us -------------------------------- */
+  /* -------------------------------- End Contact Us -------------------------------- */
+
+  /* -------------------------------- Our Location -------------------------------- */
+  /* -------------------------------- End Our Location -------------------------------- */
+
+  /* -------------------------------- Our Cars -------------------------------- */
+  /* -------------------------------- End Our Cars -------------------------------- */
+
+  /* -------------------------------- Our Clients -------------------------------- */
+  /* -------------------------------- End Our Clients -------------------------------- */
+}
